@@ -5,7 +5,9 @@ Buku Kecerdasan Buatan D4TI3B Angkatan 2017
 ## Penilaian
 
 ***Mengerjakan dan mengumpulkan tugas***
+
 ***Ketika melakukan pull request pastikan tercentang hijau, tidak ada yang merah atau kuning.***
+
 ***Membuat video dan upload di youtube***
 
 Nilai anda bisa dicek [disini](https://github.com/divakrishnam)
