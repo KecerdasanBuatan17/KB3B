@@ -1,4 +1,4 @@
-from sklearn import datasets # meng-import class dataset dari scikit−learn library 
+from sklearn import datasets #mengimport class dataset dari scikit learn library 
 iris = datasets.load_iris() # memuat dan memasukkan dataset iris ke variabel bernama iris 
 digits = datasets.load_digits() #memuat dan memasukkan dataset digits ke variabel digits
 
