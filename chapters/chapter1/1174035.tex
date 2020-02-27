@@ -6,7 +6,7 @@ AI mulai berkembang sesuai dengan konsep yang dikemukakan pada awal abad 17, Ren
 
 Pada tahun 1950-an, Program AI pertama yang sudah dapat difungsikan telah ditulis pada 1951 untuk menjalankan mesin Ferranti Mark I di University of Manchester yang merupakan sebuah program permainan naskah yang ditulis oleh Christopher Strachey. John McCarthy menyebutkan istilah "kecerdasan buatan" pada konferensi pertama yang disediakan untuk persoalan ini. Dilanjut pada tahun 1956, Beliau menemukan bahasa pemrograman yang bernama Lisp.
 
-Di tahun 1960-1970 an, Joel Moses menerangkan kekuatan pertimbangan simbolis untuk mengimplementasikan masalah di dalam program Macsyma, program berbasis pengetahuan yang sudah sukses dalam bidang matematika. Lalu di tahun 1980-an, jaringan saraf mulai digunakan secara luas menggunakan algoritma perambatan balik, pertama kali dijelaskan oleh Paul John Werbos pada tahun 1974. Selanjutnya pada tahun 1982, para ahli fisika menggunakan teknik - teknik statistika untuk menganalisis sifat dari penyimpanan dan optimasi pada jaringan saraf. Lalu dilanjutkan pada tahun 1985 sedikitnya empat kelompok riset menemukan algoritma pembelajaran propagansi balik. Algoritma ini berhasil diimplementasikan ke ilmu komputer dan psikologi. Dan pada tahun 1990, ditandai perolehan besar dalam berbagai bidang AI dan demonstrasi dari berbagai aplikasi yang sudah mengimplementasi. Seperti Deep Blue, sebuah komputer dari permainan catur yang dapat mengalahkan Garry Kasparov dalam sebuah pertandingan 6 game yang terkenal pada 1997. 
+Jaringan saraf mulai digunakan secara luas pada tahun 1980-an, dimana algoritma perambatan balik pertama kali dijelaskan oleh Paul John Werbos pada tahun 1974. Selanjutnya di tahun 1982, para ahli fisika menganalisis sifat dari penyimpanan dan optimasi pada jaringan saraf menggunakan sistem statistika. Lalu dilanjutkan pada tahun 1985 sedikitnya empat kelompok riset menemukan algoritma pembelajaran propagansi balik. Algoritma ini berhasil diimplementasikan ke ilmu komputer dan psikologi. Dan pada tahun 1990, ditandai perolehan besar dalam berbagai bidang AI dan demonstrasi dari berbagai aplikasi yang sudah mengimplementasi. Seperti Deep Blue, sebuah komputer dari permainan catur yang dapat mengalahkan Garry Kasparov dalam sebuah pertandingan 6 game yang terkenal pada 1997. 
 
 \subsection{Supervised Learning}
 Supervised learning adalah kondisi yang menggunakan variabel input dan output untuk dapat dilakukan pemetaan input output yang sudah didapat. Disebud Supervised Learning karena proses dari pembelajaran algoritma dari pembelajan yang disumberkan dengan dataset dapat dipikirkan seperti seorang guru yang mengawasi proses pembelajaran. Proses pembelajaran dari algoritma akan berhenti saat algoritma sudah mendapatkan level dari performansi yang dapat diterima.
@@ -52,6 +52,7 @@ Dataset merupakan objek yang merepresentasikan data dan relasinya di memor. Stru
 \end{enumerate}
 
 \subsection{Mencoba Loading and example dataset}
+Disini akan dilakukan percobaan dengan menggunakan beberapa datasets seperti digits dan iris untuk bisa digunakan sebagai training set yang akan dipakai seluruh metode.
 \begin{itemize}
 	\item Percobaan 1 (Memuat data iris dan digits dari datasets) \hfill \break \lstinputlisting[firstline=8, lastline=10]{src/1174035/chapter1/sample2.py}
 	\begin{figure}[H]
@@ -84,3 +85,135 @@ Dataset merupakan objek yang merepresentasikan data dan relasinya di memor. Stru
 		\caption{Hasil pada variable explorer}
 	\end{figure}
 \end{itemize}
+\subsection{Learning and Predicting}
+Disini akan dicoba untuk melakukan prediksi berupa angka yang inputnya berupa gambaran dataset. 
+\begin{itemize}
+	\item Percobaan 1  \hfill \break \lstinputlisting[firstline=8, lastline=11]{src/1174035/chapter1/sample3.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/3_1_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 1}
+	\end{figure}
+	\item Percobaan 2 \hfill \break \lstinputlisting[firstline=13, lastline=14]{src/1174035/chapter1/sample3.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/3_2_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 2}
+	\end{figure}
+	\item Percobaan 3  \hfill \break \lstinputlisting[firstline=16, lastline=16]{src/1174035/chapter1/sample3.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/3_3_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 3}
+	\end{figure}
+	\item Full sample \hfill \break \lstinputlisting[firstline=1]{src/1174035/chapter1/sample3.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/3_var.png}
+		\centering
+		\caption{Hasil pada variable explorer}
+	\end{figure}
+\end{itemize}
+\subsection{Model Persistence}
+Disini akan dilakukan persistensi model menggunakan built-in dari Python
+\begin{itemize}
+	\item Percobaan 1  \hfill \break \lstinputlisting[firstline=8, lastline=12]{src/1174035/chapter1/sample4.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/4_1_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 1}
+	\end{figure}
+	\item Percobaan 2 \hfill \break \lstinputlisting[firstline=14, lastline=17]{src/1174035/chapter1/sample4.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/4_2_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 2}
+	\end{figure}
+	\item Percobaan 3  \hfill \break \lstinputlisting[firstline=19, lastline=19]{src/1174035/chapter1/sample4.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/4_3_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 3}
+	\end{figure}
+	\item Percobaan 4  \hfill \break \lstinputlisting[firstline=21, lastline=22]{src/1174035/chapter1/sample4.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/4_4_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 4}
+	\end{figure}
+	\item Percobaan 5  \hfill \break \lstinputlisting[firstline=24, lastline=24]{src/1174035/chapter1/sample4.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/4_5_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 5}
+	\end{figure}
+	\item Full sample \hfill \break \lstinputlisting[firstline=1]{src/1174035/chapter1/sample4.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/4_var.png}
+		\centering
+		\caption{Hasil pada variable explorer}
+	\end{figure}
+\end{itemize}
+\subsection{Conventions}
+Seluruh metode akan dilakukan pengaturan untuk membuat tingkah laku lebih dapat diprediksi
+\begin{itemize}
+	\item Percobaan 1  \hfill \break \lstinputlisting[firstline=8, lastline=14]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_1_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 1}
+	\end{figure}
+	\item Percobaan 2 \hfill \break \lstinputlisting[firstline=16, lastline=18]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_2_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 2}
+	\end{figure}
+	\item Percobaan 3  \hfill \break \lstinputlisting[firstline=21, lastline=25]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_3_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 3}
+	\end{figure}
+	\item Percobaan 4  \hfill \break \lstinputlisting[firstline=27, lastline=27]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_4_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 4}
+	\end{figure}
+	\item Percobaan 5  \hfill \break \lstinputlisting[firstline=29, lastline=29]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_5_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 5}
+	\end{figure}
+	\item Percobaan 6  \hfill \break \lstinputlisting[firstline=31, lastline=31]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_6_hasil.png}
+		\centering
+		\caption{Hasil Percobaan 6}
+	\end{figure}
+	\item Full sample \hfill \break \lstinputlisting[firstline=1]{src/1174035/chapter1/sample5.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter1/5_var.png}
+		\centering
+		\caption{Hasil pada variable explorer}
+	\end{figure}
+\end{itemize}
+\subsection{Skrinsut Error}
+\begin{figure}[H]
+	\includegraphics[width=4cm]{figures/1174035/chapter1/skrinsuterror.png}
+	\centering
+	\caption{Hasil Percobaan 6}
+\end{figure}
+\subsection{Kode error dan jenis error tersebut}
+Error yang didapat berjenis name error, karena sebuah variabel tidak didefinisikan. Yaitu digits
+\lstinputlisting[firstline=1]{src/1174035/chapter1/sample5.py}
+\subsection{Penanganan Error}
+Untuk menangani error tersebut, bisa ditambahkan sesuai instruksi. Yaitu menambahkan sebuah variabel bernama digits. Selain itu, digits harus dapat bekerja sebagaimana mestinya. Berikut full kodingnya : 
+\lstinputlisting[firstline=1]{src/1174035/chapter1/sample3.py}
+\subsection{Plagiarisme}
+\begin{figure}[H]
+	\includegraphics[width=4cm]{figures/1174035/chapter1/plagiarism.png}
+	\centering
+	\caption{Hasil pada variable explorer}
+\end{figure}
