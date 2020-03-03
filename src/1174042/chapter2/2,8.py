@@ -1,0 +1,1 @@
+palembang.score(muaraenim_test_att, muaraenim_test_pass)
