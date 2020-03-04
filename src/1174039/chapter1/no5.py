@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar  1 23:31:24 2020
-
-@author: Liyana
-"""
-
 import numpy as npy #mengimport numpy sebagai npy
 from sklearn import random_projection #mengimport random_projection dari library sklearn
 

@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar  1 23:29:41 2020
-
-@author: Liyana
-"""
-
 from sklearn.linear_model import LogisticRegression # digunakan untuk mengimport linear_model dari library sklearn
 from sklearn.datasets import make_blobs #digunakan untuk mengimport library datasets dari sklearn
 
