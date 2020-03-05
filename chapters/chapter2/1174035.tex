@@ -4,7 +4,7 @@
 \begin{enumerate}
 \item Jelaskan Apa Itu Binary Classification dilengkapi ilustrasi gambar sendiri.\par
 Binary Classification adalah sebuah metode untuk menklasifikasikan elemen yang dibentuk seperti grup untuk dibagi menjadi 2 grup. Dari 2 grup tersebut diprediksikan setiap anggota pada grup yang mana sesuai dengan yang diatur pada aturan klasifikasi. Data atau konteks yang didapat membutuhkan keputusan dari item tersebut memiliki properti kualitatif, karakteristik yang spesifik, atau tipikal klasifikasi biner.
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.2]{figures/1174035/chapter2/binary_classification.jpeg}
 \caption{contoh binary classification}
@@ -16,7 +16,7 @@ Binary Classification adalah sebuah metode untuk menklasifikasikan elemen yang d
 Supervised learning adalah kondisi yang menggunakan variabel input dan output untuk dapat dilakukan pemetaan input output yang sudah didapat. Disebud Supervised Learning karena proses dari pembelajaran algoritma dari pembelajan yang disumberkan dengan dataset dapat dipikirkan seperti seorang guru yang mengawasi proses pembelajaran. Proses pembelajaran dari algoritma akan berhenti saat algoritma sudah mendapatkan level dari performansi yang dapat diterima. \par
 Unsupervised learning adalah kondisi dimana kamu hanya memiliki input data tanpa memiliki variabel output yang sesuai. Tujuan dari unsupervised learning adalah untuk memodelkan distribusi pada data untuk mengetahui lebih lanjut mengenai data. Disebut unsupervised learning karena pada metode ini, tidak ada jawaban yang tepat dan tidak ada pengarah. Sehingga algoritma akan ditinggalkan sesuai rancangan demi menemukan dan dapat mengolah data yang menarik pada saat yang akan datang. \par
 Clustering adalah sebuah metode untuk membedakan data - data menjadi kumpulan dari group yang isinya merupakan data yang serupa setiap grupnya. Basisnya dapat berupa kesamaan atau perbedaan dari setiap grup tersebut. \par
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.2]{figures/1174035/chapter2/clustering.jpeg}
 \caption{contoh clustering}
@@ -47,7 +47,7 @@ K-fold Cross-validation akan melakukan hal berikut :
     \item Untuk setiap grup, akan disesuaikan dan dievaluasikan
     \item Merekaphasil dari evaluasi dan penyesuaian menggunakan sampel dari model evaluasi
 \end{enumerate}
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.2]{figures/1174035/chapter2/kcode.jpeg}
 \caption{contoh K-fold cross validation}
@@ -61,17 +61,113 @@ Decision Tree merupakan sebuah struktur yang menentukan keputusan dan setiap kon
 
 \item jelaskan apa itu information gain dan entropi dengan gambar ilustrasi buatan sendiri.\par
 Information Gain merupakan total data yang didapat dari data - data acak yang data tersebut akan digunakan untuk analisis data lainnya. Information Gain ini digunakan pada decision tree sebagai label setiap aksi - aksi yang perlu dinilai validasinya. 
-\begin{figure}[ht]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.2]{figures/1174035/chapter2/info_gain.jpeg}
 \caption{contoh information gain}
 \label{contoh}
 \end{figure}
 Entropi merupakan pengukuran sebuah data dan validnya data tersebut untuk dapat digunakan sebagai informasi yang akan dimasukkan ke Information Gain. Entropi menilai sebuah obyek berdasarkan kebutuhan di dunia nyata dan pengaruh pada sistem yang akan digunakan
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[scale=0.2]{figures/1174035/chapter2/entropi.jpeg}
     \caption{contoh information gain}
     \label{contoh}
     \end{figure}
 \end{enumerate}
+
+\subsection{Scikit-Learn}
+\begin{enumerate}
+    \item \hfill \break \lstinputlisting[firstline=11, lastline=13]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/1.png}
+		\centering
+		\caption{Hasil Percobaan 1}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=15, lastline=17]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/2.png}
+		\centering
+		\caption{Hasil Percobaan 2}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=19, lastline=20]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/3.png}
+		\centering
+		\caption{Hasil Percobaan 3}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=22, lastline=35]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/4.png}
+		\centering
+		\caption{Hasil Percobaan 4}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=37, lastline=39]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/5.png}
+		\centering
+		\caption{Hasil Percobaan 5}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=41, lastline=44]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/6.png}
+		\centering
+		\caption{Hasil Percobaan 6}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=46, lastline=46]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/7.png}
+		\centering
+		\caption{Hasil Percobaan 7}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=48, lastline=48]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/8.png}
+		\centering
+		\caption{Hasil Percobaan 8}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=50, lastline=54]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/9.png}
+		\centering
+		\caption{Hasil Percobaan 9}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=56, lastline=59]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/10.png}
+		\centering
+		\caption{Hasil Percobaan 10}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=61, lastline=70]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/11.png}
+		\centering
+		\caption{Hasil Percobaan 11}
+    \end{figure}
+    \item \hfill \break \lstinputlisting[firstline=72, lastline=75]{src/1174035/chapter2/sample1.py}
+	\begin{figure}[H]
+		\includegraphics[width=4cm]{figures/1174035/chapter2/12.png}
+		\centering
+		\caption{Hasil Percobaan 12}
+	\end{figure}
+\end{enumerate}
+\subsection{Skrinsut Error}
+Error yang didapat yaitu mengalami error tidak ada library graphviz yang terdeteksi
+\begin{figure}[H]
+    \includegraphics[width=4cm]{figures/1174035/chapter2/error.png}
+    \centering
+    \caption{Error}
+\end{figure}
+\subsection{Penanganan Error}
+Solusinya adalah dengan menginstall library graphviz yang ada
+\begin{figure}[H]
+    \includegraphics[width=4cm]{figures/1174035/chapter2/error.png}
+    \centering
+    \caption{Error}
+\end{figure}
+\subsection{Plagiarisme}
+\begin{figure}[H]
+    \includegraphics[width=4cm]{figures/1174035/chapter2/plagiarism.png}
+    \centering
+    \caption{Hasil Pengecekan Plagiarisme}
+\end{figure}
