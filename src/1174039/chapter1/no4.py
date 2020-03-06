@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar  1 23:30:06 2020
-
-@author: Liyana
-"""
-
 from sklearn import svm #dapat mengimport svm dari library sklearn
 from sklearn import datasets #digunakan untuk mengimport datasets dari library sklearn
 clf = svm.SVC() # digunakan  dengan menggunakan method SVC
