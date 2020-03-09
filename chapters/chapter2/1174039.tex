@@ -1,0 +1,236 @@
+\section{1174039 Liyana Majdah Rahma}
+
+\subsection{Teori}
+\begin{enumerate}
+\item Jelaskan Apa Itu binari calssification dilengkapi ilustrasi gambar sendiri.\par
+Klasifikasi biner merupakan tugas yang digunakan untuk mengklasifikasi suatu elemen-elemen dari himpunan tertentu yang terdiri dari dua kelompok yang ditentukan berdasarkan klasifikasi.
+\begin{figure}[ht]
+\centering
+\includegraphics[width= 4cm]{figures/1174050/chapter2/7.jpg}
+\caption{contoh K-fold cross validation}
+\label{contoh}
+\end{figure}
+
+
+
+
+\item Jelaskan Apaitu supervised learning , unsupervised learning dan clusterring dengan ilustrasi gambar sendiri.\par
+supervised learning merupakan tipe learning dimana terdapat sebuah metode pendekatan yang mempunyai variable input dan output, serta terdapat variable yang ditargetkan dari pendekatan ini adalah mengelompokan suatu data ke data yang sudah ada sebelumnya.Dimana terdapat kelas A itu dikategorikan sebagai hewan herbivora seperti kuda,dan jerapah. Sedangkan kelas B dikategorikan sebagai hewan karnivora seperti harimau dan singa. Dilihat pada gambar.\par
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/2.jpeg}
+\caption{contoh supervised learning}
+
+\end{figure}
+
+
+unsupervised merupakan tipe learning yang tidak memiliki data latih sehingga data yang sudah ada, kita kelompokkan data tersebut menjadi dua bagian ataupun menjadi tiga bagian. untuk lebih jelasnya dapat dilihat pada gambar.\par
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/3.jpeg}
+\caption{contoh unsupervised learning}
+
+\end{figure}
+
+clustering merupakan proses yang mengklasifikasi berdasarkan suatu parameter dalam pententuannya.Untuk lebih jelasnya dilihat pada gambar berikut\par
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/4.jpeg}
+\caption{contoh clusterring}
+
+\end{figure}
+
+\item Jelaskan apa itu evaluasi dan akurasi dan disertai ilustrasi contoh dengan gambar sendiri.\par
+evaluasi merupakan suatu kegiatan yang dilakukan dari pengamatan berbagai macam bukti untuk mengukur dampak efektifitas dari objek atau proses yang berkaitan dengan spesifikasi yang telah ditentukan. sedangkan akurasi merupakan bagian dari evaluasi yang merupakan ketepatan data terhadap suatu objek yang memiliki kriteria. Dapat dilihat pada gambar berikut
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/5.jpeg}
+\caption{contoh evaluasi dan akurasi}
+
+\end{figure}
+
+\item Jelaskan bagaimana cara membuat Confusion Matrix, Buat confusion matrix sendiri.\par
+Pada confusion matrix menentukan parameter yang akan di evaluasi contohnya elang,burung merpati,burung kakatua dengan tabel baris dan kolom berjumlah tida kemudian ditentukan dengan nilai miring pada setiap kolom saya beri nilai 12 dengan ketentuan setiap baris harus bernilai 12 jika kolom lain harus jumlah 15 jika tidak berarti data tidak akurat. Dapat dilihat pada gambar berikut
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/6.jpeg}
+\caption{contoh Confusion Matrix}
+
+\end{figure}
+
+\item Jelaskan bagaimana K-fold cross validation bekerja dengan gambar ilustrasi contoh buatan sendiri.
+K-fold Cross Validation merupakan cara untuk melatih suatu mesin dimana di dalammya terdapat data set yang dibagi menjadi dua yaitu untuk data testing dan data training contoh 1000 data merupakan data set dan 300 data digunakan untuk data testing kemudian 700 datanya. Sedangkan nilai testing akan dijadikan nili inputan untuk rumus regresi linier. contohnya dapat dilihat pada gambar berikut :
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/7.jpeg}
+\caption{contoh K-fold cross validation}
+
+\end{figure}
+
+\item Jelaskan Apa itu decision tree dengan gambar ilustrasi contoh buatan sendiri.\par
+Decision tree merupakan implementasi dari binari clasification dimana pada pohon keputusan akan terdapat root atau akar dan cabang cabangnya yang nilainya seperti if contoh jika pada root berisi nilai warna mawar, apakah merah pada cabang satu bernilai iya dan pada cabang dua bernilai tidak jika nilainya iya berarti mawar dan jika tidak maka bukan mawar.
+agar lebih jelas dapat dilihat pada gambar decision tree berikut:
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/8.jpeg}
+\caption{contoh decision tree}
+
+\end{figure}
+
+\item jelaskan apa itu information gain dan entropi dengan gambar ilustrasi buatan sendiri.\par
+information gain merupakan kriteria yang terdapat dalam pembagian sebuah objek seperti gigi tajam, berkaki 4, pemakan daging termasuk karnivora. untuk lebih jelasnya dapat dilihat pada gambar berikut :\par
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/9.jpeg}
+\caption{contoh information gain}
+
+\end{figure}
+sedangkan entropi merupakan ukuran keacakan dari informasi semakin tinggi entropi maka semakin sulit dalam menentukan keputusan contoh dalam menentukan satu gen semakin detail informasi maka akan semakin susah dalam menentukan keputusan.
+\end{enumerate}
+
+
+
+\subsection{Sikic-Learn}
+\begin{enumerate}
+\item pada surcode pertama yang dapat dilihat pada gambar  pada baris pertama di tuliskan import pandas as baso yang berarti mengimport library padas. selanjutnya pada baris ke dua codingan tersebut berisi code tersebut terdapat variabel pecel yang berisi inisialisasi pandas dengan aksi untuk membaca vfile csv yang terdapat pada direktori pada komputer kemudian terdapat sep samadengan titik koma yang berarti pemisah field di dalam file tersebut merupakan titik koma. kemudian pada bagian akhir terdapat code len (nama variabel) yang berarti akan menghotung jumlah baris pada file tersebut. untuk hasilnya dapat dilihat pada gambar dibawah.
+
+\lstinputlisting{src/1174039/chapter2/1.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/10.JPG}
+\caption{hasil}
+
+\end{figure}
+
+
+\item Pada code selanjutnya akan ditambahkan fungsi untuk lulus atau gagal yang dibuat berupa kolom kolom yang di dalammya terdapat nilai 0 dan 1 dimana 0 berarti gagal dan 1 berarti lulus. kemudian variabel pada codingan sebelumnya masih digunakan. dimana variabel pecel digunakan karena berisi nilai file csv kemudian dilakukan ekseskusi dengan parameter G1, G2, dan G3 dengan fungsi lambda yang berarti if bersarang atau if didalam if yang berarti nilai yang di eksekusi akan dilempar ke dalam setiap paramater sasuai dengan kriteria dan axis=1 yaitu nilai tersebut akan digunakan dari tiap baris data. sedangkan pada codingan variabel pecel di berikan aksi drop yaitu penurunan nilai pada bagian baris data. dan pada code pecel.head yaitu untuk mengeksekusi codingan sebelumnya untuk lebih jelasnya dapat dilihat pada gambar dan hasilnya seperti pada gambar berikut :
+\lstinputlisting{src/1174039/chapter2/2.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/11.JPG}
+\caption{hasil}
+
+\end{figure}
+
+\item pada kodingan selanjutnya diguanakn untuk menambahkan nilai numerik berupa 0 dan 1 yang dirubah dari nilai tidak dan iya hal ini merupakan fungsi dari codingan get\_dummies pada baris pertama pada gambar yang nilainya diambil dari variabel pecel yang telah di dekralasikan tadi banyaknya data numerik itu sendiri tergantung pada field dari kolom yang di camtumkan pada codingan dengan catatan field tersebut harus ada dalam data csv yang di import oleh codingan pertama tadi maka hasilnya akam merubah data dalam field tersebut menjadi 0 dan 1 untuk lebih jelasnya dapat di lihat pada gambar berikut; 
+\lstinputlisting{src/1174039/chapter2/3.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/12.JPG}
+\caption{hasil}
+
+\end{figure}
+
+\item selanjutnya pada codingan selanjutnya yaitu menentukan data training dan data testing dari dataset dimana variabel pecel yang berisi data csv tadi dibuat perbandingan 500 untuk data training dan sisanya yaitu 149 digunakan untuk data testing hal ini di lakukan pada baris ke 1 sampai ke 3 pada gambar kemudian nilai tersebut di turunkan  brdasarkan baris pada data set hal itu dapat dilihat pada baris ke 4 sampai ke 9 pada gambar kemudian selanjutnya mengimport library numpy yang berguna untuk oprasi vektor dan matrix karna data diatas berupa data matrix maka library ini di gunakan. untuk hasilnya dapat dilihat pada gambar.
+\lstinputlisting{src/1174039/chapter2/4.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/13.JPG}
+\caption{hasil}
+
+\end{figure}
+
+\item selanjutnya yaitu membuat pohon keputusan dapat lebih jelasnya dapat di lihat pada gambar. pada baris pertama yairu memasukan librari tree kemudian pada baris kedua dibuat variabel lontong dengan nilai DecisionTreeClasifier yang merupakan paket atau fungsi dari scikit-learn yang merupakan class yang mampu melakukan multi class. sedangkan max\_depth=5 merupakan untuk penyesuaian data terhadap pohon keputusan itu sndiri. untuk hasilnya dapat dilihat pada gambar
+\lstinputlisting{src/1174039/chapter2/5.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/14.JPG}
+\caption{hasil}
+
+\end{figure}
+
+\item selanjutnya yaitu pembuatan gambar dari pohon keputusan yang tadi di buta pada codingan sebelumnya pada baris pertama codingan ya itu mengimport library graphviz kemudian pada baris ke dua yaitu pemberian nilai pada variabel baru dot data nilainy diambil dari pembuatan puhon keputusan tadi kemudian di tentukannya nilai benar dan salah dari codingan tersebut setelah itu dibuatlah sebuah variabel untuk menampung hasil eksekusi tersebut kemudian variabel tersebut di running untuk lebih jelasnya dapat di lihat pada gambar.kemudian hasilnya dapat dilihat pada gambar.
+\lstinputlisting{src/1174039/chapter2/6.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/15.JPG}
+\caption{hasil}
+
+\end{figure}
+
+
+\item selanjutnya pembuatasn method untuk menyimpan data pohon dengan menarik data langsung dari pohon keputusan di buat tadi untuk code lebih jelasnya dapat dilihat pada gambar. kemudian intuk hasilnya dapat dilihat pada gambar berikut.
+\lstinputlisting{src/1174039/chapter2/7.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/15.JPG}
+\caption{hasil}
+
+\end{figure}
+
+
+\item selanjutnya pada codingan berikut yaitu digunakan untuk mencetak nilai score rata-rata dari ketepatan data yang telah di olah tadi lebih jelsnya dapat dilihat pada gambar kemudian untuk hasilnya dapat dilihat pada gambar tersebut:
+\lstinputlisting{src/1174039/chapter2/8.py}
+
+
+\item selanjutnya yaitu digunakan untuk memeriksa akurasi dari ketepatan hasil pengolahan data tersebut maka akan didapat nilai rata-rata 60 persen dari hasil pengolahan data tersebut untuk lebih jelasnya dapat di lihat pada gambar pada codingan tersebut pada baris ke satu melakukan import library dari sklern kemudian pada baris selanjutnya mengisi nilai skor dengan nilai pada variabel lontong setelah hal tersebut dilakukan kemudian data tersebut di eksekusi. berikut merupakan hasil dari code tersebut dapat dilihat pada gambar.
+\lstinputlisting{src/1174039/chapter2/9.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/16.JPG}
+\caption{hasil}
+
+\end{figure}
+
+
+\item membuat rank akurasi dari 1 sampai 20 untuk melihat akurasi data apakah datatersebut terdapat di rata rata 60 persen atau tidak dengan cara membuat lagi variabel baru dengan nilai tree diadalammya jadi hampir mirip seperti membuat pohon keputusan namun ini langsung dalam bentuk rata rata akurasi yanlebih spesifik untuk lebih jelasnya dpat dilihat pada gambar codingan berikut. dan untuk hasilnya dapat dilihat pada gambar berikut.
+\lstinputlisting{src/1174039/chapter2/10.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/19.JPG}
+\caption{hasil}
+
+\end{figure}
+
+\item untuk selanjutnya yaitu menentukan nilai untuk grafik hampirsama dengan nilia akurasi tadi pertama tentukan rank atai batasan nilai itu disini batasannya di mulai dari 1 sampai 20 dengan menggunakan nilai tree tadi maka hasilnya dapat ditentuka kemudian buat variabel i untuk penomoran tiap record yang keluar atau recod hadil dari eksekusi tree tersebut. untuk lebih jelasnya dapat dilihat pada gambar dan untuk hasilnya dapat dilihat pada gambar.
+\lstinputlisting{src/1174039/chapter2/11.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/17.JPG}
+\caption{hasil}
+
+\end{figure}
+
+
+\item terakhir yaitu pembuatan grafik untuk pembuatan grafik diambil data dari codingan sebelumnya yang 20 record tadi dengan cara mengimport libray matplotlib.pyplot yang di inisialisasi menjadi bakwankemudian inisialisasi tersebut di eksekusi. untuk lebih jelasnya codingannya seperti gambar dan untuk hasilnya seperti gambar  berikut. 
+\lstinputlisting{src/1174039/chapter2/12.py}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/18.JPG}
+\caption{hasil}
+
+\end{figure}
+\end{enumerate}
+
+\subsection{Penanganan Error}
+\begin{enumerate}
+\item skrinsut error
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/eror.JPG}
+\caption{Error}
+
+\end{figure}
+
+\item kode error dan jenis errornya .
+\begin{verbatim}
+jatibarang['pass'] = jatibarangapply(lambda row: 1 if (row['G1']+row['G2']+row['G3'])
+>= 35 else 0, axis=1)
+jatibarang = jatibarang.drop(['G1', 'G2', 'G3'], axis=1)
+print(jatibarangl.head())
+\end{verbatim}
+
+NameError: name jatibarangapply is not defined
+
+\item Solusi pemecahan masalah \par
+pada codingan tersebut error karena pecelapply tergabung, seharusnya dipisahkan oleh titik
+\end{enumerate}
+
+
+\subsection{Plagiat}
+\begin{figure}[H]
+\centering
+\includegraphics[width= 4cm]{figures/1174039/chapter2/plagiat.JPG}
+\caption{plagiat}
+
+\end{figure}
