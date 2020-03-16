@@ -1,0 +1,283 @@
+\section{1174040 - Hagan Rowlenstino A. S}
+    \subsection{Teori}
+    \begin{enumerate}
+        \item Jelaskan apa itu random forest, sertakan gambar ilustrasi buatan sendiri.\par
+        Random forest adalah sebuah algoritma yang biasanya dipakai untuk mengklasifikasikan suatu data yang berjumlah besar. Dimana pengklasifikasiannya itu menggunakan pohon atau tree yang digabungkan serta melewati training terlebih dahulu pada data sample nya. Akurasinya pun akan menjadi lebih baik apabila lebih banyak tree nya. Penentuan dari pengklasifikasiannya sendiri diambil dari hasil voting yang terbentuk dan pemenangnya adalah tree atau pohon yang mempunyai voting terbanyak.
+        \begin{figure}[H]
+            \includegraphics[width=4cm]{figures/1174040/chapter3/forest.jpeg}
+            \centering
+            \caption{Random Forest}
+        \end{figure}
+        \item Jelaskan cara membaca dataset khusus dan artikan makna setiap ﬁle dan isi ﬁeld masing masing ﬁle.\par
+        Download terlebih dulu data yang akan dibaca, lalu buka aplikasi spyder dan jalankan kode nya. data yang terdapat pada file tersebut adalah data folder ATTRIBUTE, IMAGES, PARTS yang memiliki kegunaannya sendiri yang dimana pada penggunaannya data yang dipakai adalah data image\_attribute\_label pada folder attribute, data image\_class\_labels dan data classes.
+        file image\_attribute\_label berguna sebagai data awal yang digunakan untuk membaca data attribute yang terdapat pada masing - masing gambar burung yang ada.
+        sedangkan file image\_class\_label berguna sebagai data yang akan membuat kolom baru pada dataset yang fungsinya adalah untuk memasukan hasil dari semua data yang dimiliki oleh imgatt2.
+        dan file classes berguna sebagai dataset yang akan dipanggil oleh fungsi code untuk menampilkan nama dari data burung yang dimiliki. file image\_attribute\_label
+        berisi tentang data attribute yang ada pada data gambar file burung yang dimiliki difolder image pada CUB-200-2011
+        file image\_class\_label
+        berisi tentang data yang dimiliki oleh attribute dari image\_attribute\_label dimana data yang bernilai atau memiliki nilai disusun hingga menghasilkan data yang mudah dipahami.
+        file classes
+        berisi tentang data yang berguna untuk menampilkan data nama dari setiap data jenis burung yang dimiliki.
+        \item Jelaskan apa itu Cross Validation. \par
+        Cross Validation adalah teknik untuk memvalidasi sebuah model untuk menilai pengeneralisasian dari kumpulan data independen hasil statistik analis. Biasanya teknik ini digunakan untuk memprediksi dan memperkirakan kekakuratan sebuah model pada saat di eksekusi.
+        \item Jelaskan apa arti score 44 \% pada random forest, 27 \% pada decision tree dan 29 \% dari SVM. \par
+        arti score 27\% pada decission tree adalah presentasi hasil dari perhitungan dataset acak, dan arti score 29\% dari SVM adalah hasil pendekatan neural network.  Hasil tersebut didapat dari hasil valdasi silang untuk memastikan bahwa membagi training test dengan cara yang berbeda. Jadi 44\% untuk random forest, 27\% untuk pohon keputusan, dan 29\% untuk SVM. Itu merupakan presentase keakurasian prediksi yang dilakukan pada saat testing menggunakan label pada dataset yang digunakan. Score mendefinisikan aturan evaluasi model.
+        \item Jelaskan bagaimana cara membaca confusion matriks dan contohnya memakai gambar atau ilustrasi sendiri. \par
+        Confussion matrix menggunakan rumus perhitungan dengn 4 keluaran, yang pertama adalah :
+        \begin{figure}[H]
+            \includegraphics[width=4cm]{figures/1174040/chapter3/confusion.jpeg}
+            \centering
+            \caption{Confussion Matrix}
+        \end{figure}
+            \begin{itemize}
+                \item Recall
+                \begin{equation}
+                    d/(c+d)
+                \end{equation}
+                \item Prescision
+                \begin{equation}
+                    d/(b+d)
+                \end{equation}
+                \item Accuracy
+                \begin{equation}
+                    (a+c)/(a+b+c+d)
+                \end{equation}
+                \item Error Rate
+                \begin{equation}
+                    (b+c)/(a+b+c+d)
+                \end{equation}
+            \end{itemize}
+        \item Jelaskan apa itu voting pada random forest disertai dengan ilustrasi gambar sendiri. \par
+        Voting itu adalah hasil dari sebuah desicion tree, yang nanti akhirnya akan menjadi hasil dari random forest. sebagai contoh ada 5 desicion tree. Desicion tree pertama menyimpulkan A, yang ke dua juga A, dan ketiga pun A, tetapi ke 4 B dan ke 5 C. maka random forest akan menyimpulkan hasilnya adalah A.
+        \begin{figure}[H]
+            \includegraphics[width=4cm]{figures/1174040/chapter3/vote.jpeg}
+            \centering
+            \caption{Vote}
+        \end{figure}
+    \end{enumerate}
+    \subsection{Praktek}
+        \begin{enumerate}
+            \item Pandas
+            Pada baris pertama kita mengimport library pandas dan menamainya sebagai pan , lalu memasukkan data kedalam variable data. setelah itu membuat dataframe dengan data yang telah di masukkan tadi, lalu membuat variable bernama cari untuk melihat semua data dari attribute Nama lalu print variable tersebut untuk melihat hasilnya pada console
+            
+            \begin{figure}[H]
+            \includegraphics[width=4cm]{figures/1174040/chapter3/1.png}
+            \centering
+            \caption{Pandas}
+            \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/2.png}
+                \centering
+                \caption{hasil Pandas}
+                \end{figure}
+            \item numpy
+            Baris pertama adalah untuk mengimport library numpy dan menamainya sebagai num, lalu membuat sebuah variable bernama mat dan menggunakan fungsi arrange untuk membuat angka berurutan dari 1 sampai 25, mengapa ditulis satu sampai 26 karena urutan dimulai dari 0,  lalu menggunakan reshape untuk mengubahnya menjadi matrix. dan terakhir print variable mat untuk menampilkan nya pada console
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/3.png}
+                \centering
+                \caption{Numpy}
+                \end{figure}
+
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/4.png}
+                \centering
+                \caption{Hasil Numpy}
+                \end{figure}
+            \item matplotlib
+            Pertama import pyplot dari library matplotlib dan menamainya sebagai plt, lalu memasukkan data yang diinginkan kedalam variable x dan y . lalu menggunakan fungsi bar untuk membuat grafik bar yang isi datanya adalah x, dan y, lalu memberikan label pada sumbu x dan y dan memberikan judul pada grafik tersebut, dan menggunakan show() untuk menampilkan grafik
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/5.png}
+                \centering
+                \caption{Matplotlib}
+                \end{figure}
+            
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/6.png}
+                \centering
+                \caption{Hasil Matplotlib}
+                \end{figure}
+            \item Random Forest
+            Dari sklearn.ensamble mengimport RandomForestClassifier dan memberikan ketentuan dimana maksimal datanya adalah 50 dengan keadaan random serta estimatornya 100 dan dimasukkan kedalam variable clf lalu itu variabel clf di running berdasarkan data training dan data label yang telah di deﬁnisikan jumlahnya. kemudian variabel clf di running berdasarkan data training paling atas untuk memunculkan hasil data training lima paling atas. setelah itu data tersebut di di running scorenya untuk melihat tingkat akurasi yang dia kerjakan maka tingkat akurasi yang dihasilkan berada pada kisaran 0,448 atau kisaran 44\%.
+
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/7.png}
+                \centering
+                \caption{Random Forest}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/8.png}
+                \centering
+                \caption{Hasil Random Forest}
+                \end{figure}
+            \item Confussion Matrix
+            dari sklearn.matrics mengimport confusion matrix  kemudian dibuat variabel pred labels dengan di isikan clf prdic df test att setelah itu membuat variabel cm yang isinya terdapat data yang di buat confusion matrix berdasarkan data test setelah variabel cm akan di running yang mana akan menghasilkan gambar berupa matrix matrix tersebut berisi nilai nilai kebenaran yang mendekati nilai benar atau mutlak nilai benar.
+
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/9.png}
+                \centering
+                \caption{Confusion Matrix}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/10.png}
+                \centering
+                \caption{Hasil Coonfusion Matrix}
+                \end{figure}
+            \item Decision Tree dan SVM
+            masukan terlebih dahulu library tree setelah itu buat variabel clftree yang berisi decision tree setelah itu masukan nilai data training dan label yang telah di deklarasikan tadi setelah itu running variabel tersebut untuk mendapatkan score 0,266 kisaran 26 sampai 27\% akurasinya
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/11.png}
+                \centering
+                \caption{Desicion Tree}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/12.png}
+                \centering
+                \caption{Hasil Desicion Tree}
+                \end{figure}
+            Import terlebih dahulu library svm nya setelah itu buat variabel clfsvm yang berarti berisi nilai data training dan data label dan pendeklarasian svm itu sendiri setelah itu di running untuk mendapatkan nilai akurasinya atau score sebesar 0,283 atau dalam kisaran 23\%.
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/13.png}
+                \centering
+                \caption{SVM}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/14.png}
+                \centering
+                \caption{Hasil SVM}
+                \end{figure}
+            \item Cross Validation
+            mengimport cross\_val\_score dari sklearn.model\_selection , lalu memasukkan variable variable yang akan di ukur keakuratan dari model yang digunakan lalu menampilkan nya di console, disini digunakan variable clf yaitu random forest.
+
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/15.png}
+                \centering
+                \caption{Cross Val Rand Forest}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/16.png}
+                \centering
+                \caption{Hasil Cross Validaiton Random Forest}
+                \end{figure}
+            
+            Disini memasukkan variable variable yang akan di ukur keakuratan dari model yang digunakan lalu menampilkan nya di console, disini digunakan variable clftree yaitu desicion Tree.
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/17.png}
+                \centering
+                \caption{Cross Vadation Desicion Tree}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/18.png}
+                \centering
+                \caption{Hasil Cross Vadation Desicion Tree}
+                \end{figure}
+            Disini memasukkan variable variable yang akan di ukur keakuratan dari model yang digunakan lalu menampilkan nya di console, disini digunakan variable clfsvm yaitu svm.
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/19.png}
+                \centering
+                \caption{Cross Vadation SVM}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/20.png}
+                \centering
+                \caption{Hasil Cross Vadation SVM}
+                \end{figure}
+            \item Program Pengamatan dan Hasil Pengamatan.
+            perogram pengamatan ini menggunakan library matplotlib supaya hasil dari presentase hasil random forest, svm dan decision tree dapat di bandingkan dengan membuat variabel X Y Z kemudian memberikan label untuk setiap dimensinya untuk lebih jelas dapat dilihat gambar yang menunjukan hasil perbandingan presentase dari tiga metode tersebut.
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/21.png}
+                \centering
+                \caption{Program Pengamatan}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/22.png}
+                \centering
+                \caption{Hasil Program Pengamatan}
+                \end{figure}
+            \begin{figure}[H]
+                \includegraphics[width=4cm]{figures/1174040/chapter3/matplot.png}
+                \centering
+                \caption{Grafik Program Pengamatan}
+                \end{figure}
+        \end{enumerate}
+    \subsection{Penanganan Error}
+        \subsubsection{Skrinshoot error}
+            \begin{enumerate}
+                \item Error 1
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err1type.png}
+                    \centering
+                    \caption{Error 1}
+                    \end{figure}
+                \item Error 2
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err2type.png}
+                    \centering
+                    \caption{Error 2}
+                    \end{figure}
+                \item Error 3
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err3type.png}
+                    \centering
+                    \caption{Error 3}
+                    \end{figure}
+                \item Error 4
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err4type.png}
+                    \centering
+                    \caption{Error 4}
+                    \end{figure}
+            \end{enumerate}
+        \subsubsection{Kode Error dan Tipe Error}
+            \begin{enumerate}
+                \item Error 1 type FileNotFoundError
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err1.png}
+                    \centering
+                    \caption{Kode Error 1}
+                    \end{figure}
+                \item Error 2 type NameError
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err2.png}
+                    \centering
+                    \caption{Kode Error 2}
+                    \end{figure}
+                \item Error 3 type DataConversionWarning
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err3.png}
+                    \centering
+                    \caption{Kode Error 3}
+                    \end{figure}
+                \item Error 4 type NameError
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/err4.png}
+                    \centering
+                    \caption{Kode Error 4}
+                    \end{figure}
+            \end{enumerate}
+        \subsubsection{Solusi}
+            \begin{enumerate}
+                \item Mengganti back slash menjadi slash biasa
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/fixerr1.png}
+                    \centering
+                    \caption{Fix Error 1}
+                    \end{figure}
+                \item Mengubah huruf depan katan none menjadi huruf besar
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/fixerr2.png}
+                    \centering
+                    \caption{Fix Error 2}
+                    \end{figure}
+                \item Menambahkan label kedalam variable
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/fixerr3.png}
+                    \centering
+                    \caption{Fix Error 3}
+                    \end{figure}
+                \item Mengilangkan 1 huruf s
+                \begin{figure}[H]
+                    \includegraphics[width=4cm]{figures/1174040/chapter3/fixerr4.png}
+                    \centering
+                    \caption{Fix Error 4}
+                    \end{figure}
+            \end{enumerate}
