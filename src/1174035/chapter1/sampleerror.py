@@ -14,3 +14,4 @@ clf = svm.SVC(gamma=0.001, C=100) #Memasukkan implementasi dari "Support Vector 
 clf.fit(digits.data[:-1], digits.target[:-1]) #Untuk melakukan pengiriman data training set ke method fit
 #%%
 clf.predict(digits.data[-1:]) #Untuk melakukan prediksi nilai yang baru berdasarkan gambar terakhir dari digits.data
+
