@@ -1,0 +1,242 @@
+\contentsline {schapter}{Daftar Gambar}{xv}{chapter*.4}% 
+\contentsline {schapter}{Daftar Tabel}{xliii}{chapter*.5}% 
+\contentsline {schapter}{Foreword}{liii}{chapter*.7}% 
+\contentsline {schapter}{Kata Pengantar}{lv}{chapter*.8}% 
+\contentsline {schapter}{Acknowledgments}{lvii}{chapter*.9}% 
+\contentsline {schapter}{Acronyms}{lix}{chapter*.10}% 
+\contentsline {schapter}{Glossary}{lxi}{chapter*.11}% 
+\contentsline {schapter}{List of Symbols}{lxiii}{chapter*.12}% 
+\contentsline {schapter}{Introduction}{lxv}{chapter*.13}% 
+\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{lxv}{chapter*.13}% 
+\contentsline {chapter}{\numberline {1}Chapter 1}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}1174035 - Luthfi Muhammad Nabil}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Sejarah dan perkembangan Kecerdasan Buatan}{1}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}Supervised Learning}{2}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}Unsupervised Learning}{2}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.4}Jenis - Jenis Dataset}{3}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {1.1.5}Instalasi dan Percobaan Kompilasi dari Library Scikit-learn}{3}{subsection.1.1.5}% 
+\contentsline {subsection}{\numberline {1.1.6}Mencoba Loading and example dataset}{5}{subsection.1.1.6}% 
+\contentsline {subsection}{\numberline {1.1.7}Learning and Predicting}{7}{subsection.1.1.7}% 
+\contentsline {subsection}{\numberline {1.1.8}Model Persistence}{8}{subsection.1.1.8}% 
+\contentsline {subsection}{\numberline {1.1.9}Conventions}{10}{subsection.1.1.9}% 
+\contentsline {subsection}{\numberline {1.1.10}Skrinsut Error}{14}{subsection.1.1.10}% 
+\contentsline {subsection}{\numberline {1.1.11}Kode error dan jenis error tersebut}{14}{subsection.1.1.11}% 
+\contentsline {subsection}{\numberline {1.1.12}Penanganan Error}{15}{subsection.1.1.12}% 
+\contentsline {subsection}{\numberline {1.1.13}Plagiarisme}{16}{subsection.1.1.13}% 
+\contentsline {section}{\numberline {1.2}1174040 - Hagan Rowlenstino A. S}{16}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Teori}{16}{subsection.1.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.1.1}Definisi Kecerdasan Buatan}{16}{subsubsection.1.2.1.1}% 
+\contentsline {subsubsection}{\numberline {1.2.1.2}Sejarah Kecerdasan Buatan}{16}{subsubsection.1.2.1.2}% 
+\contentsline {subsubsection}{\numberline {1.2.1.3}Perkembangan Kecerdasan Buatan}{16}{subsubsection.1.2.1.3}% 
+\contentsline {subsection}{\numberline {1.2.2}Instalasi}{17}{subsection.1.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Instalasi library scikit, mencoba kompilasi dan ujicoba contoh kode}{17}{subsubsection.1.2.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2.2}Mencoba loading an example dataset}{18}{subsubsection.1.2.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.2.3}Mencoba Learning and Predicting}{19}{subsubsection.1.2.2.3}% 
+\contentsline {subsubsection}{\numberline {1.2.2.4}Mencoba Model Presistence}{20}{subsubsection.1.2.2.4}% 
+\contentsline {subsubsection}{\numberline {1.2.2.5}Mencoba Conventions}{20}{subsubsection.1.2.2.5}% 
+\contentsline {subsection}{\numberline {1.2.3}Penanganan Error}{20}{subsection.1.2.3}% 
+\contentsline {subsubsection}{\numberline {1.2.3.1}Screenshot Error}{20}{figure.1.33}% 
+\contentsline {subsubsection}{\numberline {1.2.3.2}Kode error dan jenis error}{20}{subsubsection.1.2.3.2}% 
+\contentsline {subsubsection}{\numberline {1.2.3.3}Solusi Error}{21}{subsubsection.1.2.3.3}% 
+\contentsline {subsection}{\numberline {1.2.4}Cek Plagiarism}{21}{subsection.1.2.4}% 
+\contentsline {section}{\numberline {1.3}1174042 Faisal Najib Abdullah}{21}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Teori}{21}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Instalasi}{22}{subsection.1.3.2}% 
+\contentsline {subsubsection}{\numberline {1.3.2.1}Instalasi Library Scikit dari Pycharm}{22}{subsubsection.1.3.2.1}% 
+\contentsline {subsection}{\numberline {1.3.3}Penanganan eror}{27}{subsection.1.3.3}% 
+\contentsline {subsubsection}{\numberline {1.3.3.1}ScreenShoot Eror}{28}{figure.1.41}% 
+\contentsline {subsubsection}{\numberline {1.3.3.2}Tuliskan Kode Eror dan Jenis Erornya}{28}{subsubsection.1.3.3.2}% 
+\contentsline {subsubsection}{\numberline {1.3.3.3}Solusi Pemecahan Masalah Error}{28}{subsubsection.1.3.3.3}% 
+\contentsline {subsection}{\numberline {1.3.4}Plagiat}{28}{subsection.1.3.4}% 
+\contentsline {subsection}{\numberline {1.3.5}Link}{28}{subsection.1.3.5}% 
+\contentsline {section}{\numberline {1.4}1174043 - Irvan Rizkiansyah}{29}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.4.1}Definisi Kecerdasan Buatan}{29}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.2}Sejarah dan Perkembangan}{29}{subsection.1.4.2}% 
+\contentsline {subsection}{\numberline {1.4.3}Supervised Learning}{29}{subsection.1.4.3}% 
+\contentsline {subsection}{\numberline {1.4.4}Unsupervised Learning}{30}{subsection.1.4.4}% 
+\contentsline {subsection}{\numberline {1.4.5}Teknik Klasifikasi}{30}{subsection.1.4.5}% 
+\contentsline {subsection}{\numberline {1.4.6}Regresi}{30}{subsection.1.4.6}% 
+\contentsline {subsection}{\numberline {1.4.7}Training Set}{30}{subsection.1.4.7}% 
+\contentsline {subsection}{\numberline {1.4.8}Testing Set}{30}{subsection.1.4.8}% 
+\contentsline {subsection}{\numberline {1.4.9}Instalasi dan Percobaan Kompilasi dari Library Scikit-learn}{30}{subsection.1.4.9}% 
+\contentsline {subsection}{\numberline {1.4.10}Mencoba Loading an example dataset}{32}{subsection.1.4.10}% 
+\contentsline {subsection}{\numberline {1.4.11}Mencoba Learning and Predicting}{33}{subsection.1.4.11}% 
+\contentsline {subsection}{\numberline {1.4.12}Mencoba Model Persistence}{33}{subsection.1.4.12}% 
+\contentsline {subsection}{\numberline {1.4.13}Mencoba Conventions}{34}{subsection.1.4.13}% 
+\contentsline {section}{\numberline {1.5}1174050 Dika Sukma Pradana}{34}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Teori}{34}{subsection.1.5.1}% 
+\contentsline {subsection}{\numberline {1.5.2}Instalasi}{36}{subsection.1.5.2}% 
+\contentsline {subsubsection}{\numberline {1.5.2.1}Instalasi Library Scikit dari Anaconda}{36}{subsubsection.1.5.2.1}% 
+\contentsline {subsection}{\numberline {1.5.3}Percobaan}{36}{subsection.1.5.3}% 
+\contentsline {subsubsection}{\numberline {1.5.3.4}Conventions}{39}{subsubsection.1.5.3.4}% 
+\contentsline {subsection}{\numberline {1.5.4}Penanganan eror}{41}{subsection.1.5.4}% 
+\contentsline {subsubsection}{\numberline {1.5.4.1}ScreenShoot Eror}{41}{figure.1.50}% 
+\contentsline {subsubsection}{\numberline {1.5.4.2}Tuliskan Kode Eror dan Jenis Erornya}{41}{subsubsection.1.5.4.2}% 
+\contentsline {subsubsection}{\numberline {1.5.4.3}Solusi Pemecahan Masalah Error}{41}{subsubsection.1.5.4.3}% 
+\contentsline {subsection}{\numberline {1.5.5}Plagiarism}{42}{subsection.1.5.5}% 
+\contentsline {section}{\numberline {1.6}1174057 Alit Fajar Kurniawan}{42}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Teori}{42}{subsection.1.6.1}% 
+\contentsline {subsubsection}{\numberline {1.6.1.1}Sejarah Perkembangan dan Definisi Arti\IeC {fi}cial Intelligence}{42}{subsubsection.1.6.1.1}% 
+\contentsline {subsubsection}{\numberline {1.6.1.2}learning, klasi\IeC {fi}kasi, regresi dan unsupervised learning. Data set, training set dan testing set}{43}{subsubsection.1.6.1.2}% 
+\contentsline {subsection}{\numberline {1.6.2}Praktek}{43}{subsection.1.6.2}% 
+\contentsline {subsubsection}{\numberline {1.6.2.1}Instalasi}{43}{subsubsection.1.6.2.1}% 
+\contentsline {subsection}{\numberline {1.6.3}Penanganan Error}{50}{subsection.1.6.3}% 
+\contentsline {subsection}{\numberline {1.6.4}Bukti Tidak Plagiat}{51}{subsection.1.6.4}% 
+\contentsline {section}{\numberline {1.7}1174039 - Liyana Majdah Rahma}{51}{section.1.7}% 
+\contentsline {subsection}{\numberline {1.7.1}Teori}{51}{subsection.1.7.1}% 
+\contentsline {subsubsection}{\numberline {1.7.1.1}Definisi Kecerdasan Buatan}{51}{subsubsection.1.7.1.1}% 
+\contentsline {subsubsection}{\numberline {1.7.1.2}Sejarah Kecerdasan Buatan}{51}{subsubsection.1.7.1.2}% 
+\contentsline {subsubsection}{\numberline {1.7.1.3}Perkembangan Kecerdasan Buatan}{52}{subsubsection.1.7.1.3}% 
+\contentsline {subsection}{\numberline {1.7.2}Instalasi}{52}{subsection.1.7.2}% 
+\contentsline {subsubsection}{\numberline {1.7.2.1}Instalasi Library Scikit dari Anaconda}{52}{subsubsection.1.7.2.1}% 
+\contentsline {subsubsection}{\numberline {1.7.2.2}Mencoba loading an example dataset}{54}{subsubsection.1.7.2.2}% 
+\contentsline {subsubsection}{\numberline {1.7.2.3}Mencoba Learning and Predicting}{55}{subsubsection.1.7.2.3}% 
+\contentsline {subsubsection}{\numberline {1.7.2.4}Mencoba Model Presistence}{55}{subsubsection.1.7.2.4}% 
+\contentsline {subsubsection}{\numberline {1.7.2.5}Mencoba Conventions}{55}{subsubsection.1.7.2.5}% 
+\contentsline {subsection}{\numberline {1.7.3}Penanganan Error}{56}{subsection.1.7.3}% 
+\contentsline {subsubsection}{\numberline {1.7.3.1}Screenshot Error}{56}{figure.1.70}% 
+\contentsline {subsubsection}{\numberline {1.7.3.2}Kode error dan jenis error}{56}{subsubsection.1.7.3.2}% 
+\contentsline {subsubsection}{\numberline {1.7.3.3}Solusi Error}{56}{subsubsection.1.7.3.3}% 
+\contentsline {subsection}{\numberline {1.7.4}Cek Plagiarism}{56}{subsection.1.7.4}% 
+\contentsline {chapter}{\numberline {2}Chapter 2}{57}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}1174042 Faisal Najib Abdullah}{57}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Teori}{57}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Sikic-Learn}{62}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Penanganan Error}{68}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Plagiat}{69}{subsection.2.1.4}% 
+\contentsline {section}{\numberline {2.2}1174035 Luthfi Muhammad Nabil}{69}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Teori}{69}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Scikit-Learn}{74}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Skrinsut Error}{79}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Penanganan Error}{79}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.5}Plagiarisme}{79}{subsection.2.2.5}% 
+\contentsline {section}{\numberline {2.3}1174057 - Alit Fajar Kurniawan}{80}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Teori}{80}{subsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1.1}Jelaskan apa itu binary classi\IeC {fi}cation dilengkapi ilustrasi gambar sendiri}{80}{subsubsection.2.3.1.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Jelaskan apa itu supervised learning dan unsupervised learning dan clustering dengan ilustrasi gambar sendiri}{80}{subsubsection.2.3.1.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Praktek}{81}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Penanganan Error}{81}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Bukti Tidak Plagiat}{81}{subsection.2.3.4}% 
+\contentsline {section}{\numberline {2.4}1174050 Dika Sukma Pradana}{81}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Teori}{81}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Sikic-Learn}{85}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Penanganan Error}{93}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Plagiat}{94}{subsection.2.4.4}% 
+\contentsline {section}{\numberline {2.5}1174039 Liyana Majdah Rahma}{94}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Teori}{94}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Sikic-Learn}{98}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Penanganan Error}{105}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Plagiat}{106}{subsection.2.5.4}% 
+\contentsline {section}{\numberline {2.6}1174043 Irvan Rizkiansyah}{106}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Teori}{106}{subsection.2.6.1}% 
+\contentsline {subsection}{\numberline {2.6.2}Scikit-Learn}{109}{subsection.2.6.2}% 
+\contentsline {section}{\numberline {2.7}1174040 - Hagan Rowlenstino A. S}{113}{section.2.7}% 
+\contentsline {subsection}{\numberline {2.7.1}Teori}{113}{subsection.2.7.1}% 
+\contentsline {subsection}{\numberline {2.7.2}scikit-learn}{118}{subsection.2.7.2}% 
+\contentsline {subsection}{\numberline {2.7.3}Penanganan Error}{122}{subsection.2.7.3}% 
+\contentsline {chapter}{\numberline {3}Chapter 3}{123}{chapter.3}% 
+\contentsline {subsection}{\numberline {3.0.1}Soal Teori}{123}{subsection.3.0.1}% 
+\contentsline {section}{\numberline {3.1}Faisal Najib Abdullah / 1174042}{127}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Teori}{127}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Praktikum}{129}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}Penanganan Error / cokro}{135}{subsection.3.1.3}% 
+\contentsline {section}{\numberline {3.2}1174040 - Hagan Rowlenstino A. S}{137}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Teori}{137}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Praktek}{139}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Penanganan Error}{144}{subsection.3.2.3}% 
+\contentsline {subsubsection}{\numberline {3.2.3.1}Skrinshoot error}{144}{subsubsection.3.2.3.1}% 
+\contentsline {subsubsection}{\numberline {3.2.3.2}Kode Error dan Tipe Error}{144}{subsubsection.3.2.3.2}% 
+\contentsline {subsubsection}{\numberline {3.2.3.3}Solusi}{145}{subsubsection.3.2.3.3}% 
+\contentsline {section}{\numberline {3.3}1174050 Dika Sukma Pradana}{146}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Teori}{146}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Praktikum}{149}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Penanganan Error}{154}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}1174057 Alit Fajar Kurniawan}{155}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Teori}{155}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Praktikum}{158}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Penanganan Error}{164}{subsection.3.4.3}% 
+\contentsline {section}{\numberline {3.5}1174039 - Liyana Majdah Rahma}{165}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Teori}{165}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Praktek}{167}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Penanganan Error}{171}{subsection.3.5.3}% 
+\contentsline {subsubsection}{\numberline {3.5.3.1}Skrinshoot error}{171}{subsubsection.3.5.3.1}% 
+\contentsline {subsubsection}{\numberline {3.5.3.2}Kode Error dan Tipe Error}{172}{subsubsection.3.5.3.2}% 
+\contentsline {subsubsection}{\numberline {3.5.3.3}Solusi}{172}{subsubsection.3.5.3.3}% 
+\contentsline {chapter}{\numberline {4}Chapter 4}{173}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Faisal Najib Abdullah / 1174042}{173}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Teori}{173}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Praktek Program}{175}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Penanganan Error}{182}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}1174040 - Hagan Rowlenstino A. S}{183}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Teori}{183}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Praktek}{185}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Penanganan Error}{191}{subsection.4.2.3}% 
+\contentsline {subsubsection}{\numberline {4.2.3.1}Sreenshoot Error}{191}{subsubsection.4.2.3.1}% 
+\contentsline {subsubsection}{\numberline {4.2.3.2}Kode Error dan Jenisnya}{192}{subsubsection.4.2.3.2}% 
+\contentsline {subsubsection}{\numberline {4.2.3.3}Solusi}{192}{subsubsection.4.2.3.3}% 
+\contentsline {section}{\numberline {4.3}Alit Fajar Kurniawan 1174057}{193}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Teori}{193}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Praktek Program}{196}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.3}Penanganan Error}{203}{subsection.4.3.3}% 
+\contentsline {subsubsection}{\numberline {4.3.3.1}Sreenshoot Error}{203}{subsubsection.4.3.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.3.2}Penanganan Error}{204}{subsubsection.4.3.3.2}% 
+\contentsline {section}{\numberline {4.4}Luthfi Muhammad Nabil (1174035)}{204}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Teori}{204}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Praktek}{207}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Penanganan Error}{211}{subsection.4.4.3}% 
+\contentsline {section}{\numberline {4.5}1174039 - Liyana majdah rahma}{212}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Teori}{212}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}Praktek}{214}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}Penanganan Error}{219}{subsection.4.5.3}% 
+\contentsline {subsubsection}{\numberline {4.5.3.1}Sreenshoot Error}{219}{subsubsection.4.5.3.1}% 
+\contentsline {subsubsection}{\numberline {4.5.3.2}Kode Error dan Jenisnya}{220}{subsubsection.4.5.3.2}% 
+\contentsline {subsubsection}{\numberline {4.5.3.3}Solusi}{220}{subsubsection.4.5.3.3}% 
+\contentsline {section}{\numberline {4.6}1174050 Dika Sukma Pradana}{220}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Teori}{220}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Praktek Program}{222}{subsection.4.6.2}% 
+\contentsline {subsection}{\numberline {4.6.3}Penanganan Error}{228}{subsection.4.6.3}% 
+\contentsline {chapter}{\numberline {5}Chapter 5}{231}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}1174042 Faisal Najib Abdullah}{231}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Teori}{231}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Praktikum}{234}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Penanganan Error}{241}{subsection.5.1.3}% 
+\contentsline {section}{\numberline {5.2}1174040 - Hagan Rowlenstino A. S}{241}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Teori}{241}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Praktek}{246}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Luthfi Muhammad Nabil (1174035)}{258}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Teori}{258}{subsection.5.3.1}% 
+\contentsline {section}{\numberline {5.4}1174039- Liyana Majdah Rahma}{260}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Teori}{260}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Praktek}{262}{subsection.5.4.2}% 
+\contentsline {section}{\numberline {5.5}1174050 Dika Sukma Pradana}{271}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Teori}{271}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Praktek}{276}{subsection.5.5.2}% 
+\contentsline {section}{\numberline {5.6}1174057 Alit Fajar Kurniawan}{290}{section.5.6}% 
+\contentsline {subsection}{\numberline {5.6.1}Teori}{290}{subsection.5.6.1}% 
+\contentsline {subsection}{\numberline {5.6.2}Praktek}{294}{subsection.5.6.2}% 
+\contentsline {subsection}{\numberline {5.6.3}Penanganan Error}{304}{subsection.5.6.3}% 
+\contentsline {chapter}{\numberline {6}Chapter 6}{305}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Faisal Najib ABdullah / 1174042}{305}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Teori}{305}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.2}Praktikum}{308}{subsection.6.1.2}% 
+\contentsline {section}{\numberline {6.2}1174039- Liyana Majdah Rahma}{315}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Teori}{315}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Praktek}{318}{subsection.6.2.2}% 
+\contentsline {section}{\numberline {6.3}1174040 - Hagan Rowlenstino A. S}{322}{section.6.3}% 
+\contentsline {subsection}{\numberline {6.3.1}Teori}{322}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.3.2}Praktek}{325}{subsection.6.3.2}% 
+\contentsline {section}{\numberline {6.4}Luthfi Muhammad Nabil (1174035)}{331}{section.6.4}% 
+\contentsline {subsection}{\numberline {6.4.1}Praktek}{334}{subsection.6.4.1}% 
+\contentsline {subsection}{\numberline {6.4.2}Praktek}{335}{subsection.6.4.2}% 
+\contentsline {subsection}{\numberline {6.4.3}Skrinsut error}{342}{subsection.6.4.3}% 
+\contentsline {section}{\numberline {6.5}1174050 Dika Sukma Pradana}{343}{section.6.5}% 
+\contentsline {subsection}{\numberline {6.5.1}Teori}{343}{subsection.6.5.1}% 
+\contentsline {subsection}{\numberline {6.5.2}Praktek}{346}{subsection.6.5.2}% 
+\contentsline {section}{\numberline {6.6}1174057 Alit Fajar Kurniawan}{358}{section.6.6}% 
+\contentsline {subsection}{\numberline {6.6.1}Teori}{358}{subsection.6.6.1}% 
+\contentsline {subsection}{\numberline {6.6.2}Praktek}{362}{subsection.6.6.2}% 
+\contentsline {subsection}{\numberline {6.6.3}Plagiarisme}{369}{subsection.6.6.3}% 
+\contentsline {chapter}{\numberline {7}Chapter 7}{371}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Faisal Najib Abdullah / 1174042}{371}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Teori}{371}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Pemrograman}{376}{subsection.7.1.2}% 
