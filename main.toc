@@ -1,13 +1,13 @@
 \contentsline {schapter}{Daftar Gambar}{xv}{chapter*.4}% 
-\contentsline {schapter}{Daftar Tabel}{xliii}{chapter*.5}% 
-\contentsline {schapter}{Foreword}{liii}{chapter*.7}% 
-\contentsline {schapter}{Kata Pengantar}{lv}{chapter*.8}% 
-\contentsline {schapter}{Acknowledgments}{lvii}{chapter*.9}% 
-\contentsline {schapter}{Acronyms}{lix}{chapter*.10}% 
-\contentsline {schapter}{Glossary}{lxi}{chapter*.11}% 
-\contentsline {schapter}{List of Symbols}{lxiii}{chapter*.12}% 
-\contentsline {schapter}{Introduction}{lxv}{chapter*.13}% 
-\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{lxv}{chapter*.13}% 
+\contentsline {schapter}{Daftar Tabel}{xlv}{chapter*.5}% 
+\contentsline {schapter}{Foreword}{lvii}{chapter*.7}% 
+\contentsline {schapter}{Kata Pengantar}{lix}{chapter*.8}% 
+\contentsline {schapter}{Acknowledgments}{lxi}{chapter*.9}% 
+\contentsline {schapter}{Acronyms}{lxiii}{chapter*.10}% 
+\contentsline {schapter}{Glossary}{lxv}{chapter*.11}% 
+\contentsline {schapter}{List of Symbols}{lxvii}{chapter*.12}% 
+\contentsline {schapter}{Introduction}{lxix}{chapter*.13}% 
+\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{lxix}{chapter*.13}% 
 \contentsline {chapter}{\numberline {1}Chapter 1}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}1174035 - Luthfi Muhammad Nabil}{1}{section.1.1}% 
 \contentsline {subsection}{\numberline {1.1.1}Sejarah dan perkembangan Kecerdasan Buatan}{1}{subsection.1.1.1}% 
@@ -240,3 +240,8 @@
 \contentsline {section}{\numberline {7.1}Faisal Najib Abdullah / 1174042}{371}{section.7.1}% 
 \contentsline {subsection}{\numberline {7.1.1}Teori}{371}{subsection.7.1.1}% 
 \contentsline {subsection}{\numberline {7.1.2}Pemrograman}{376}{subsection.7.1.2}% 
+\contentsline {section}{\numberline {7.2}1174040 - Hagan Rowlenstino A. S}{389}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Teori}{389}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Pemrograman}{394}{subsection.7.2.2}% 
+\contentsline {schapter}{Daftar Pustaka}{409}{chapter*.15}% 
+\contentsline {schapter}{Index}{411}{chapter*.15}% 
