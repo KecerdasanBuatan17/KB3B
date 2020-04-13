@@ -281,3 +281,26 @@
 \contentsline {lstlisting}{src/1174042/chapter7/2,18.py}{386}{lstlisting.7.-281}% 
 \contentsline {lstlisting}{src/1174042/chapter7/2,19.py}{387}{lstlisting.7.-282}% 
 \contentsline {lstlisting}{src/1174042/chapter7/2,20.py}{388}{lstlisting.7.-283}% 
+\contentsline {lstlisting}{\numberline {7.1}K Fold Cross Validation}{389}{lstlisting.7.1}% 
+\contentsline {lstlisting}{\numberline {7.2}Membuat model Neural Network}{392}{lstlisting.7.2}% 
+\contentsline {lstlisting}{\numberline {7.3}Compile model}{393}{lstlisting.7.3}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{394}{lstlisting.7.-284}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{395}{lstlisting.7.-285}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{396}{lstlisting.7.-286}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{396}{lstlisting.7.-287}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{397}{lstlisting.7.-288}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{397}{lstlisting.7.-289}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{398}{lstlisting.7.-290}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{398}{lstlisting.7.-291}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{399}{lstlisting.7.-292}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{400}{lstlisting.7.-293}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{401}{lstlisting.7.-294}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{401}{lstlisting.7.-295}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{402}{lstlisting.7.-296}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{404}{lstlisting.7.-297}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{405}{lstlisting.7.-298}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{405}{lstlisting.7.-299}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{406}{lstlisting.7.-300}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{406}{lstlisting.7.-301}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{407}{lstlisting.7.-302}% 
+\contentsline {lstlisting}{src/1174040/chapter7/MathSymbols.py}{407}{lstlisting.7.-303}% 
