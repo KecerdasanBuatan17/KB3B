@@ -58,10 +58,10 @@
             \item Berikan contoh dengan penjelasan kode program beserta gambar arsitektur untuk membuat generator(neural network) dengan sebuah input layer, tiga hidden layer(dense layer), dan satu output layer(reshape layer)
 \begin{verbatim}
 gen=Sequential() #Inisiasi dari sequensial
-gen.add(Dense(units=200,input_dim=np.shape(train_input)[1])) #Menambah dense layer dengan batch size 200 dan input dim dari input
+gen.add(Dense(units=200,input\_dim=np.shape(train\_input)[1])) #Menambah dense layer dengan batch size 200 dan input dim dari input
 gen.add(Dense(units=400))#Menambah dense layer dengan batch size 400 dan input dim 100
 gen.add(Dense(units=784, activation='tanh')) #Menambah dense layer dengan batch size 784 dan aktivasi metode tanh
-gen.compile(loss='binary_crossentropy', optimizer=adam_optimizer()) #Menkompilasi hasil penambahan setiap dense
+gen.compile(loss='binary\_crossentropy', optimizer=adam\_optimizer()) #Menkompilasi hasil penambahan setiap dense
  gen.summary() #Memproses data yang sudah disetting dan menampilkannya
 \end{verbatim}    
             \par Pada contoh tersebut, data akan diambil dari hasil proses sebelumnya yaitu proses ekstrasi data gambar. Dari contoh ini, terdapat 3 layer dense, 1 input layer dan 1 output layer. Dari input layer nanti akan dimasukkan terlebih dahulu ke dense layer pertama lalu diproses oleh 2 layer selanjutnya dan terakhir akan ditampilkan oleh layer output.
@@ -74,10 +74,10 @@ gen.compile(loss='binary_crossentropy', optimizer=adam_optimizer()) #Menkompilas
             \item Berikan contoh dengan ilustrasi dari arsitektur dikriminator dengan sebuath input layer, 3 buah hidden layer, dan satu output layer.
 \begin{verbatim}
 diskrim=Sequential()#Inisiasi dari sequensial
-diskrim.add(Dense(units=784,input_dim=np.shape(train_input)[1]))#Menambah dense layer dan input dim dari layer
+diskrim.add(Dense(units=784,input\_dim=np.shape(train\_input)[1]))#Menambah dense layer dan input dim dari layer
 diskrim.add(Dense(units=400)) #Mensetting Dense
 diskrim.add(Dense(units=200, activation='sigmoid')) #Mensetting dense dan melakukan aktivasi dengan metode sigmoid
-diskrim.compile(loss='binary_crossentropy', optimizer=adam_optimizer())#Menkompilasi hasil penambahan setiap dense
+diskrim.compile(loss='binary\_crossentropy', optimizer=adam\_optimizer())#Menkompilasi hasil penambahan setiap dense
 diskrim.summary()#Memproses data yang sudah disetting dan menampilkannya
 \end{verbatim}
             \par Pada contoh tersebut, data akan diambil dari hasil proses sebelumnya yaitu proses ekstrasi data gambar. Dari contoh ini, terdapat 3 layer dense, 1 input layer dan 1 output layer. Pada proses ini, seluruh data akan dibandingkan dengan data sebelumnya yaitu dari generator dan dari data aslinya yang sudah dijadikan data vector. 
@@ -119,4 +119,134 @@ diskrim.summary()#Memproses data yang sudah disetting dan menampilkannya
               \end{enumerate}
             \end{itemize}
 
+        \end{enumerate}
+
+        \subsection{Praktek}
+        \begin{enumerate}
+        \item Jelaskan apa itu 3D convolutions
+        Konvolusi 3D. Konvolusi 3D menerapkan filter 3 dimensi ke dataset dan filter bergerak 3 arah (x, y, z) untuk menghitung representasi fitur level rendah. Bentuk output mereka adalah ruang volume 3 dimensi seperti kubus atau kuboid.
+        
+        \item Jelaskan dengan kode program arsitektur dari generator networknya, beserta penjelasan input dan output dari generator network.
+        \lstinputlisting{src/1174040/chapter8/no2.py}
+        generator ialah g\_loss, Bentuk jaringan Generator dapat dilihat berkebalikan dengan struktur jaringan saraf pada umumnya. Jaringan Generator menerima input sebuah vektor angka z, kemudian mengubahnya menjadi output gambar tiga dimensi.
+        
+        \item Jelaskan dengan kode program arsitektur dari diskriminator network, beserta penjelasan input dan outputnya.
+        \lstinputlisting{src/1174040/chapter8/no3.py}
+        diskrimanator adalah d\_loss, Jaringan Discriminator merupakan jaringan klasifikasi biner yang menerima input gambar tiga dimensi dan mengeluarkan klasifikasi menyatakan input gambar adalah gambar asli dari dataset atau merupakan gambar buatan Generator.
+        
+        \item Jelaskan proses training 3D-GANs
+        proses training 3D gan yaitu dengan melakukan epoch sebanyak yang ditentukan.
+        
+        \item Jelaskan bagaimana melakukan settingan awal chapter 02 untuk memenuhi semua kebutuhan sebelum melanjutkan ke tahapan persiapan data.
+        1. clone github										 2. download dataset 									3. buat folder baru logs dan results
+        
+        \item Jelaskan tentang dataset yang digunakan, dari mulai tempat unduh, cara membuka dan melihat data. Sampai deskripsi dari isi dataset dengan detail penjelasan setiap folder/file yang membuat orang awam paham.
+        dataset digunakan yaitu 3DShapeNets yang berisi model model bentuk benda dll, folder train berisi train dan folder test berisi data testing. dan semua data tersebut di simpan didalam folder volumetric\_data 
+        
+        \item Jelaskan apa itu voxel dengan ilustrasi dan bahasa paling awam
+        Volume pixel atau voxel adalah titik dalam ruang tiga dimensi. Sebuah voxel mendefinisikan posisi dengan tiga koordinat dalam arah x, y, dan z. Sebuah voxel adalah unit dasar untuk mewakili gambar 3D
+        
+        \item Visualisasikan dataset tersebut dalam tampilan visual plot, jelaskan cara melakukan visualisasinya
+        1. import library									   2. load data file .mat  								  3. lalu read memakai matplotlib
+        
+        \item buka file run.py jelaskan perbaris kode pada fungsi untuk membuat generator yaitu build generator.
+        membuat generator yaitu dengan ketentukan gen sebagai variabel dan membuat fungsi atau variabel gen\_model lalu dilakukan return
+        
+        \item jelaskan juga fungsi untuk membangun diskriminator pada fungsi build discriminator.
+        membangun diskriminator berfungsi untuk mendefenisikan seluruh gambar yang sudah di load generator sebagai gambar fake dan real
+        
+        \item Jelaskan kode program
+        \lstinputlisting{src/1174040/chapter8/1.py}
+        Jika interpreter python menjalankan if name main  sebagai program utama, itu ialah menetapkan variabel name  untuk memiliki nilai main. Jika file ini sedang diimpor dari modul lain, name akan ditetapkan ke nama modul. Nama modul tersedia sebagai nilai untuk name variabel global.
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/2.py}
+        artinya adalah load dataset yang hanya dalam folder chair data train
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/3.py}
+        disini menggunakan Adam sebagai algoritma pengoptimalan dan binary\_crossentropy sebagai kerugian loss. 
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/4.py}
+        ini artinya ialah kita memasukkan random vector kedalam generator model lalu membagi 2 yaitu generated example dan real example, dan meneruskan ke diskriminator model sebagai real atau fake
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/5.py}
+        ini melakukan load data pada dataset
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/6.py}
+        ini berfungsi untuk membuat tensorboard yang nantinya bisa diakses melalui localhost
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/7.py}
+        fungsi ini ialah untuk melakukan reshape agar shape yang dihasilkan tidak terlalu besar.
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/8.py}
+        karena jika epoch semakin banyak maka kualiatas training yang dihasilkan akan semakin baik
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/9.py}
+        batch adalah jumlah file yang akan di training
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/10.py}
+        ini adalah untuk membuat gambar bersih dari noise dan juga menyesuaikan shape
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/11.py}
+        ialah membuat sample gambar palsu yang akan diteruskan ke diskriminator
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/12.py}
+        diskriminator bisa load gambar fake dan real dari generator, oleh karena itu ada generator loss dan diskriminator loss untuk melihat seberapa baik kualitas yang dihasilkan
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/13.py}
+        dengan melakukan print g\_loss untuk generator dan juga d\_loss untuk diskriminator
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/14.py}
+        mengapa ada perulangan karena untuk melakukan perbandingan dari hasil yang sudah didapat.
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/15.py}
+        TensorBoard adalah sebuah aplikasi web localhost untuk memeriksa dan menyelesaikan grafik dari hasil TensorFlow.
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/16.py}
+        File H5 adalah file data yang disimpan dalam Format Data Hirarki (HDF). Ini berisi array multidimensi data ilmiah
+        
+        \item Jelaskan kode program 
+        \lstinputlisting{src/1174040/chapter8/17.py}
+        ini adalah tahap akhir untuk melakukan testing dari model yang telah dibuat dan buat model dari yang sudah di create sebelumnya yaitu generator dan diskriminator.
+        
+        \begin{figure}[H]
+        \centering
+        \includegraphics[width=4cm]{figures/1174040/chapter8/1.png}
+        \caption{Result}
+        \end{figure}
+        
+        \begin{figure}[H]
+        \centering
+        \includegraphics[width=4cm]{figures/1174040/chapter8/2.png}
+        \caption{Result} 
+        \end{figure}
+        
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=4cm]{figures/1174040/chapter8/3.png}
+        \caption{Result}
+ 
+        \end{figure}
+        
+        \begin{figure}[H]
+        \centering
+        \includegraphics[width=4cm]{figures/1174040/chapter8/4.jpg}
+        \caption{Result}
+        \end{figure}
+        
+        
         \end{enumerate}
